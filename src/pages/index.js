@@ -47,11 +47,7 @@ const Landing = () => (
 	<div>
 		<Meta />
 		<div
-			className="relative bg-white overflow-hidden"
-			style={{
-				background:
-					"url('/bg-patterns.svg') left top no-repeat, linear-gradient(244.75deg, #D1D5FC -10.92%, #F3F3FA 30.96%, #FFFFFF 110.9%) center center",
-			}}
+			className="relative overflow-hidden bg-patterns"
 		>
 			<div className="pointer-events-none">
 				<div
@@ -217,7 +213,25 @@ const Landing = () => (
 				</div>
 			</div>
 		</div>
-		<div className="py-16 lg:py-20 lg:px-8 bg-[#FAFAFE]">
+		<div
+			className="relative overflow-hidden bg-patterns"
+		>
+			<div className="max-w-7xl mx-auto px-4 py-8 lg:py-20 sm:px-6 grid grid-cols-1 gap-8 lg:grid-cols-2">
+				<div className="text-center">
+					<h2 className="text-3xl font-extrabold text-gray-900">Who Started Hyperscale?</h2>
+					<p className="mt-4 text-lg">
+					It began with a tweet. Sam wanted to figure out a way to
+					fund early web3 projects, that was itself in the spirit of
+					web3. Within minutes, hundreds of people were in a new
+					Discord, planning a self-sustaining, decentralized
+					organization that could evaluate and invest in new ideas at
+					lightning speed.
+					</p>
+				</div>
+				<div><img src="/who_started_tweet.svg"/> </div>
+			</div>
+		</div>
+		<div className="py-8 lg:py-20 lg:px-8 bg-[#FAFAFE]">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6">
 				<h2 className="text-3xl font-extrabold text-gray-900">Timeline</h2>
 				<p className="mt-4 text-lg text-gray-500">
