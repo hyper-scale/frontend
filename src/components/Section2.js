@@ -6,7 +6,7 @@ const links = [
 ]
 
 
-const Section1 = () => (
+const Section2 = () => (
 	<div style={{ background: "#160A2F"}} className="my-8">
 		
 		<div className="flex items-center justify-evenly bg-[#FEDB9E] py-32 mx-12">
@@ -58,4 +58,4 @@ const Section1 = () => (
 	</div>
 )
 
-export default Section1
+export default Section2
