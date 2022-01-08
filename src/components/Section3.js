@@ -25,14 +25,14 @@ const Section1 = () => (
 					<img src="/section3/block.svg" width={60} />
 					<div className="flex flex-col ml-8 w-60">
 						<div className="text-[#BAC4FA] font-bold">REVIEW & ASYNC INTERVIEW</div>
-						<div className="text-white">We review your application and if we like it, we interview you</div>
+						<div className="text-white">We review your applicationand if we like it, we interview you</div>
 					</div>
 				</div>
 				<div className="flex items-center my-8">
 					<img src="/section3/call.svg" width={60} />
 					<div className="flex flex-col ml-8 w-60">
 						<div className="text-[#BAC4FA] font-bold">CALL</div>
-						<div className="text-white">A 15 minute call is the final  process in the application.</div>
+						<div className="text-white">A 15 minute call is the final process in the application.</div>
 					</div>
 				</div>
 				<div className="flex items-center my-8">
