@@ -42,3 +42,17 @@
 .underlined {
   background: linear-gradient(#FFD17F, #FFD17F) 0 var(--y-pos, 90%) / 100% var(--size, 12px) no-repeat;
 }
+
+.section-2-card{
+    background: #EBE8E3;
+    border: 3px solid #000000;
+    box-shadow: 6px 8px 0px #160a2f;
+    border-radius: 4px;
+
+}
+.section-2-card h3{
+    line-height: 1.5;
+}
+.section-2-card img{
+    margin: auto;
+   }
