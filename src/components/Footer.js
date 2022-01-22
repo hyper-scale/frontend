@@ -3,7 +3,7 @@ import Link from 'next/link'
 const text = 'Hyperscale'
 const separator = '//'
 const links = [
-	'/',
+	'https://hyperscale.notion.site/Hyperscale-Knowledge-Base-6c8253dc64df4562bf4f258bbd206707',
 	'https://www.twitter.com/HyperscaleFund',
 	'https://discord.gg/7CGPQ8fWHt',
 	'https://airtable.com/shrLFCXD7BQXUg97K',

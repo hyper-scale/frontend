@@ -10,7 +10,6 @@ const links = [
 
 const Section1 = () => (
 	<div className=" bg-[#160A2F] pb-8 px-6 md:px-10 bg-curvature">
-		<div className="noise"></div>
 		<Header />
 		<div className="container mx-auto flex flex-col-reverse md:flex-row justify-between items-center pt-8 pb-32 lg:pb-24">
 			<div className="flex flex-col mt-12 lg:max-w-2xl">
